@@ -1,0 +1,37 @@
+{
+  "name": "dsh-aboard",
+  "version": "1.1.1",
+  "private": true,
+  "type": "module",
+  "description": "A股市场宏观与情绪看板 (A-share market dashboard) for DeepSeek Harness",
+  "main": "lib/index.js",
+  "icon": "assets/icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./assets/icon.svg"
+  },
+  "files": [
+    "lib",
+    "client",
+    "assets",
+    "backend",
+    "locale",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "INSTALL.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

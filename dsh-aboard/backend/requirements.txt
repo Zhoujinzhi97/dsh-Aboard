@@ -1,0 +1,16 @@
+# Python backend dependencies for the A-share dashboard plugin.
+# The plugin installs these automatically on first start when it cannot find a Python
+# interpreter that can already import flask / pandas / akshare. Set ABOARD_NO_AUTO_PIP=1
+# to disable that and install manually:
+#   python -m pip install -r requirements.txt
+#
+# akshare is pinned: 1.20.45+ renamed many interfaces (stock_zh_a_daily -> stock_zh_a_hist_sina),
+# and this backend still uses the old names. 1.20.37 is verified.
+flask>=3.0,<4
+requests>=2.31
+pandas>=2.0,<3
+numpy>=1.26
+akshare==1.20.37
+yfinance>=0.2.40
+openpyxl>=3.1
+mini-racer>=0.12,<0.15

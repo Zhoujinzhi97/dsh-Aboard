@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="A-share market dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182030"/>
+      <stop offset="1" stop-color="#0a0d13"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="url(#bg)"/>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="25.25" fill="none" stroke="#2c3a4f" stroke-width="1.5"/>
+  <g stroke-linecap="round" fill="none">
+    <path d="M26 88 L48 62 L64 74 L100 32" stroke="#f04452" stroke-width="9"/>
+    <path d="M100 32 L100 54" stroke="#f04452" stroke-width="9" opacity="0.35"/>
+  </g>
+  <g fill="#f0b90b" opacity="0.85">
+    <rect x="26" y="96" width="12" height="12" rx="3"/>
+    <rect x="46" y="96" width="12" height="12" rx="3"/>
+    <rect x="66" y="96" width="12" height="12" rx="3"/>
+    <rect x="86" y="96" width="12" height="12" rx="3"/>
+  </g>
+</svg>

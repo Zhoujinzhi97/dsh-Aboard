@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "A-share market dashboard",
+    "description": "Click A-share board in the sidebar to open the original A-share macro and sentiment dashboard: market data, macro read, sentiment and flows, single-stock analysis, investment calendar, news, and index options — seven tabs with a composite score, market breadth, fear and greed, ETF shares, futures basis, and backtests. Data comes from the bundled Python backend, which listens on a random 127.0.0.1 port only; quotes and news request public Tencent, Sina, and Eastmoney endpoints, so network access is required. The first open waits for the backend to start (about 10–60 seconds); the page shows progress and offers an error detail with a retry button. Turning the plugin off removes the sidebar entry and the /aboard route; your watchlist and history stay in the Harness profile's aboard-data directory.",
+    "detail": "docs/DETAIL.md"
+  }
+}
